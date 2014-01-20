@@ -28,6 +28,7 @@
 		43CB6E68188DC7B100977301 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CB6E67188DC7B100977301 /* OptionsViewController.m */; };
 		43CB6E6B188DC90900977301 /* ControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CB6E6A188DC90900977301 /* ControlsViewController.m */; };
 		43CB6E6E188DC9F400977301 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CB6E6D188DC9F400977301 /* CreditsViewController.m */; };
+		43CB6E71188DCD0900977301 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CB6E70188DCD0900977301 /* LoadingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		43CB6E6A188DC90900977301 /* ControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlsViewController.m; sourceTree = "<group>"; };
 		43CB6E6C188DC9F400977301 /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsViewController.h; sourceTree = "<group>"; };
 		43CB6E6D188DC9F400977301 /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
+		43CB6E6F188DCD0900977301 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		43CB6E70188DCD0900977301 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 				43CB6E6A188DC90900977301 /* ControlsViewController.m */,
 				43CB6E6C188DC9F400977301 /* CreditsViewController.h */,
 				43CB6E6D188DC9F400977301 /* CreditsViewController.m */,
+				43CB6E6F188DCD0900977301 /* LoadingViewController.h */,
+				43CB6E70188DCD0900977301 /* LoadingViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 				43CB6E62188DC35700977301 /* StartViewController.m in Sources */,
 				4327AD391884A238000E26B6 /* AppDelegate.m in Sources */,
 				4327AD351884A238000E26B6 /* main.m in Sources */,
+				43CB6E71188DCD0900977301 /* LoadingViewController.m in Sources */,
 				43CB6E6B188DC90900977301 /* ControlsViewController.m in Sources */,
 				43CB6E68188DC7B100977301 /* OptionsViewController.m in Sources */,
 			);

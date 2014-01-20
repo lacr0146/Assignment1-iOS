@@ -54,6 +54,30 @@
             </objects>
             <point key="canvasLocation" x="-584" y="119"/>
         </scene>
+        <!--Loading View Controller-->
+        <scene sceneID="b0d-Um-M4v">
+            <objects>
+                <viewController id="Xq2-g7-M4o" customClass="LoadingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="teh-pi-qZg"/>
+                        <viewControllerLayoutGuide type="bottom" id="NYx-rS-2K2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ALD-gg-Wn9">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Ruj-08-uWq">
+                                <rect key="frame" x="374" y="946" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IoE-7H-gND" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1486" y="1317"/>
+        </scene>
         <!--Start View Controller-->
         <scene sceneID="5nC-rA-8FH">
             <objects>
@@ -224,7 +248,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="CUA-hP-CNB" kind="modal" modalTransitionStyle="flipHorizontal" id="tlM-hi-1iF"/>
+                                    <segue destination="Xq2-g7-M4o" kind="modal" modalTransitionStyle="flipHorizontal" id="Ae3-32-RhV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Und-jH-dBQ">
@@ -270,6 +294,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="4Dt-G3-hKj"/>
-        <segue reference="tlM-hi-1iF"/>
+        <segue reference="p8V-bI-AqJ"/>
     </inferredMetricsTieBreakers>
 </document>
