@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="-1486" y="1317"/>
         </scene>
-        <!--Start View Controller-->
+        <!--Game View Controller-->
         <scene sceneID="5nC-rA-8FH">
             <objects>
-                <viewController id="CUA-hP-CNB" customClass="StartViewController" sceneMemberID="viewController">
+                <viewController id="CUA-hP-CNB" customClass="GameViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zkg-N7-eCp"/>
                         <viewControllerLayoutGuide type="bottom" id="1S3-km-c6C"/>

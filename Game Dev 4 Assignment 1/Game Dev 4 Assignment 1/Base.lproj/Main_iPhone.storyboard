@@ -9,15 +9,15 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="8KT-1E-cag"/>
-                        <viewControllerLayoutGuide type="bottom" id="31q-ev-dPJ"/>
+                        <viewControllerLayoutGuide type="top" id="03Y-yL-suf"/>
+                        <viewControllerLayoutGuide type="bottom" id="K1z-QK-arM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVZ-CK-5s4">
-                                <rect key="frame" x="94" y="411" width="133" height="30"/>
+                                <rect key="frame" x="149" y="397" width="133" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Press here to begin">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -27,6 +27,10 @@
                                     <segue destination="RVc-jR-sY0" kind="modal" modalTransitionStyle="flipHorizontal" id="2iB-ep-HmU"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Splash.png" highlightedImage="Splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="DeQ-qm-g7b">
+                                <rect key="frame" x="0.0" y="0.0" width="241" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -35,13 +39,13 @@
             </objects>
             <point key="canvasLocation" x="123" y="315"/>
         </scene>
-        <!--View Controller-->
+        <!--Pause View Controller-->
         <scene sceneID="nrs-Dk-Kaf">
             <objects>
-                <viewController id="vNh-hR-oWm" sceneMemberID="viewController">
+                <viewController id="vNh-hR-oWm" customClass="PauseViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="z88-n5-qDM"/>
-                        <viewControllerLayoutGuide type="bottom" id="Rct-ak-vEV"/>
+                        <viewControllerLayoutGuide type="top" id="a2U-dn-NKY"/>
+                        <viewControllerLayoutGuide type="bottom" id="NKc-UI-hh1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Wt8-Sc-wxI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
@@ -96,8 +100,8 @@
             <objects>
                 <viewController id="fDa-db-z18" customClass="LoadingViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="MUd-be-YaP"/>
-                        <viewControllerLayoutGuide type="bottom" id="tdW-um-3M6"/>
+                        <viewControllerLayoutGuide type="top" id="0Qt-Go-VHT"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZEF-Bu-HQr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sM4-Nt-pic">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
@@ -115,13 +119,13 @@
             </objects>
             <point key="canvasLocation" x="-2" y="-278"/>
         </scene>
-        <!--Pause View Controller-->
+        <!--Game View Controller-->
         <scene sceneID="d9D-iC-f5O">
             <objects>
-                <viewController id="C0d-6V-vFj" customClass="PauseViewController" sceneMemberID="viewController">
+                <viewController id="C0d-6V-vFj" customClass="GameViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lRx-Ax-wPl"/>
-                        <viewControllerLayoutGuide type="bottom" id="mOX-Cv-hcu"/>
+                        <viewControllerLayoutGuide type="top" id="hmN-si-Zza"/>
+                        <viewControllerLayoutGuide type="bottom" id="hnA-8y-gJt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qzV-T8-Zu7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
@@ -140,6 +144,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="IsE-Jc-QkG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JWk-c6-S9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -150,8 +155,8 @@
             <objects>
                 <viewController id="mgT-bR-Fv8" customClass="OptionsViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="aLb-l7-ljj"/>
-                        <viewControllerLayoutGuide type="bottom" id="oyy-C5-kF2"/>
+                        <viewControllerLayoutGuide type="top" id="7Q1-ct-Hwb"/>
+                        <viewControllerLayoutGuide type="bottom" id="t0E-Y7-ic7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="l4a-Ok-l87">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
@@ -186,8 +191,8 @@
             <objects>
                 <viewController id="RVc-jR-sY0" customClass="MainMenuViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4Sy-rQ-uJh"/>
-                        <viewControllerLayoutGuide type="bottom" id="gdf-Y6-fVB"/>
+                        <viewControllerLayoutGuide type="top" id="aqk-re-dQf"/>
+                        <viewControllerLayoutGuide type="bottom" id="eso-z8-Ued"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xP1-v7-hnU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
@@ -200,7 +205,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="fDa-db-z18" kind="modal" modalTransitionStyle="flipHorizontal" id="z2R-ts-UuS"/>
+                                    <segue destination="fDa-db-z18" kind="modal" modalTransitionStyle="flipHorizontal" id="NeB-65-d9A"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IzM-wV-AAG">
@@ -249,8 +254,8 @@
             <objects>
                 <viewController id="ZEp-La-lTp" customClass="ControlsViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="SS6-k0-Jyj"/>
-                        <viewControllerLayoutGuide type="bottom" id="gjJ-Ln-lag"/>
+                        <viewControllerLayoutGuide type="top" id="wdT-2E-pUz"/>
+                        <viewControllerLayoutGuide type="bottom" id="seG-L8-5U1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3Ta-Jr-g0N">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
@@ -285,8 +290,8 @@
             <objects>
                 <viewController id="tmC-4p-IR2" customClass="CreditsViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="z3e-Qk-ekO"/>
-                        <viewControllerLayoutGuide type="bottom" id="DrH-TV-7Sd"/>
+                        <viewControllerLayoutGuide type="top" id="Lzb-A2-pRU"/>
+                        <viewControllerLayoutGuide type="bottom" id="z51-fn-u6p"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ath-Dz-zC4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
@@ -317,6 +322,9 @@
             <point key="canvasLocation" x="760" y="903"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Splash.png" width="768" height="1024"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
@@ -324,6 +332,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="myN-63-2Bw"/>
-        <segue reference="UMc-m1-nCj"/>
+        <segue reference="2iB-ep-HmU"/>
     </inferredMetricsTieBreakers>
 </document>

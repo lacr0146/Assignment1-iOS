@@ -29,6 +29,8 @@
 		43CB6E6B188DC90900977301 /* ControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CB6E6A188DC90900977301 /* ControlsViewController.m */; };
 		43CB6E6E188DC9F400977301 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CB6E6D188DC9F400977301 /* CreditsViewController.m */; };
 		43CB6E71188DCD0900977301 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CB6E70188DCD0900977301 /* LoadingViewController.m */; };
+		43CB6E74188DCE7000977301 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CB6E73188DCE7000977301 /* GameViewController.m */; };
+		43CB6E76188DD37600977301 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CB6E75188DD37600977301 /* Splash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,9 @@
 		43CB6E6D188DC9F400977301 /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
 		43CB6E6F188DCD0900977301 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
 		43CB6E70188DCD0900977301 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		43CB6E72188DCE7000977301 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		43CB6E73188DCE7000977301 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		43CB6E75188DD37600977301 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Splash.png; path = ../../../Desktop/Splash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +140,7 @@
 		4327AD2E1884A238000E26B6 /* Game Dev 4 Assignment 1 */ = {
 			isa = PBXGroup;
 			children = (
+				43CB6E75188DD37600977301 /* Splash.png */,
 				4327AD371884A238000E26B6 /* AppDelegate.h */,
 				4327AD381884A238000E26B6 /* AppDelegate.m */,
 				4327AD3A1884A238000E26B6 /* Main_iPhone.storyboard */,
@@ -168,6 +174,8 @@
 				43CB6E6D188DC9F400977301 /* CreditsViewController.m */,
 				43CB6E6F188DCD0900977301 /* LoadingViewController.h */,
 				43CB6E70188DCD0900977301 /* LoadingViewController.m */,
+				43CB6E72188DCE7000977301 /* GameViewController.h */,
+				43CB6E73188DCE7000977301 /* GameViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -268,6 +276,7 @@
 			files = (
 				4327AD3F1884A238000E26B6 /* Main_iPad.storyboard in Resources */,
 				4327AD441884A238000E26B6 /* Images.xcassets in Resources */,
+				43CB6E76188DD37600977301 /* Splash.png in Resources */,
 				4327AD3C1884A238000E26B6 /* Main_iPhone.storyboard in Resources */,
 				4327AD331884A238000E26B6 /* InfoPlist.strings in Resources */,
 			);
@@ -289,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43CB6E5F188DC01900977301 /* MainMenuViewController.m in Sources */,
+				43CB6E74188DCE7000977301 /* GameViewController.m in Sources */,
 				43CB6E65188DC4D100977301 /* PauseViewController.m in Sources */,
 				4327AD421884A238000E26B6 /* ViewController.m in Sources */,
 				43CB6E6E188DC9F400977301 /* CreditsViewController.m in Sources */,
